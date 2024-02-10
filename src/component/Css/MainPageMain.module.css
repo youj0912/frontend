@@ -68,6 +68,10 @@
     border:1px solid #D9D9D9;
     border-radius: 15px;
   }
+  .event > img{
+    width:620px;
+    height:523px;
+  }
   .infoTop{
     top:80px;
     left:30px;
