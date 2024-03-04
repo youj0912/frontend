@@ -1,0 +1,94 @@
+
+(X)표시 개별로 하기로해서 취소된거
+--------------------------------------------
+
+가장 큰 레이아웃에 font: inter, color: black 지정
+
+--font_give    로고 옆에 기브
+--color_give   로고 옆에 기브 색상
+
+--------------------------------------------
+--size_title   	크기 30 헌혈증등록, 헌혈증 선택 , 제출 등 타이틀 부분
+*헌혈증 등록 큰 카드 안에있는 텍스트 크기(25)
+
+--size_context 20	성명,~~~ ,등 내용안에 들어가는 텍스트 
+--color_border_in_certification   증서번호
+--radius_border_in_certification  전혈. 5로
+
+--------------------------------------------
+--font_bottom       		헌혈의집찾기부분
+--color_bottom     		강원특별자치도 어쩌구
+--radius_bottom_background_color 
+--radius_bottom
+
+--------------------------------------------
+--switch     		유효하지 않을때-gray, 유효할때-yellow 
+ 
+--backgroundcolor_give_card 	전체 노랑 카드 
+카드 안에 give 색상은 로고랑 일치
+
+--radius_circle_select    		개인, 레드박스
+
+--radius_rectangle_title   		15으로  @색상 추가?
+--radius_rectangle_context  	10으로 
+
+--------------------------------------------
+(x)--background_color_allCount  총 기부개수
+(x)--background_color_myCount   나의 기부개수
+--background_color_percent      기여도
+
+--------------------------------------------
+--color_reserve                 헌혈증 보유량색상
+--color_blood_type              혈액형 색상
+--background_color_request      헌혈증 요청
+
+--------------------------------------------
+--radius_rectangle_popup        10으로. 대상자 선택, 기부개수
+
+--------------------------------------------
+--radius_profile        	    20으로
+--color_rank      		    머그컵, 15 -등급 나와있는부분
+
+--------------------------------------------
+--radius_register_card   	    20정도임. 본인인증, 로그인
+--radius_register_button 	    10정도임. 로그인, 비밀번호 찾기 버튼
+
+혈액색상
+--background_color_blood FF4D4D
+--color_blood white
+
+--------------------------------------------
+--radius_info 		10으로.	이벤트, 공지사항
+--radius_list 		15로 헌혈 안에 박스 네개, 문의답변,faq,공지등록,지급심사, 문의,통계
+(X)기부횟수
+
+--radius_sign_up 		30으로
+--radius_list_item 10으로 	공지등록, 지급검사 등 세부 창
+length만 조절
+
+--------------------------------------------
+#참고
+href 로 위치주면 페이지 이동
+
+#색상
+총기부개수-FF6666
+나의 기부개수-FF8989
+기여도-FE0000
+헌혈증 요청-FF7E7E
+A,b,ab,o 혈액형, 확인 버튼, 문의쪽 제출 버튼 - FF4D4D
+헌혈 보유량 "120개" 부분, 전혈, 성별 체크부분 -FF4747
+오른쪽 반원-FF4747
+왼쪽반원 -FE0000
+
+
+카드 뒤집기-토글방식
+
+
++추가이미지
+메인오른쪽반원, 메인왼쪽반원(사이즈가 더 작음)
+장관도장
+헌혈증 요청페이지 사람
+헌혈금지기간
+헌혈증 등록 방법
+
+각 페이지에 사이드에 있는 반원은 조그만 동그라미들이 묶이지 않아 캡쳐함 Ellipse13-1(흰색배경), Ellipse13-2(회색배경) 
