@@ -11,7 +11,7 @@ body{
   --background_color_bottom:#F0F0F0;
   --radius_bottom:0 50% 0 0;
   --background_color_register_request:#FF4D4D;
-
+  --color_register_form:#FF4D4D;
 }
 
 main{

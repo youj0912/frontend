@@ -31,6 +31,9 @@
 .step1 > p:first-child , .step2 > p:first-child , .step3 > p:first-child{
     font-weight: bold;
 }
+.step1 > p:first-child{
+    color: var(--color_register_form);
+}
 .order > img{
     width:25px;
     height:25px;
