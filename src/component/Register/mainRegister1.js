@@ -1,6 +1,21 @@
 import styles from '../Css/Register1Main.module.css';
 import Order1 from './order1'
+import {useRef, useState} from "react";
 export default function MainRegister1(){
+    const [OK, setOK] = useState(false);
+    const RadioRef = useRef(null);
+    const YesCheck = ()=>{
+        if(!OK){
+            setOK(!OK);
+            RadioRef.current.style.setProperty('pointer-events','auto');
+        }
+    }
+    const NoCheck = () =>{
+        if(OK){
+            setOK(!OK);
+            RadioRef.current.style.setProperty('pointer-events',null);
+        }
+    }
     return(
         <main className={styles.main}>
             <p>회원가입</p>
@@ -29,8 +44,8 @@ export default function MainRegister1(){
 예그리나 감또개 함초롱하다 책방 그루잠 우리는 포도 여우비 도담도담 도서관 소솜 산들림 달볓 함초롱하다 도서 감또개 예그리나 옅구름 바나나 도르레 안녕 컴퓨터 도담도담 여우비 미쁘다 다솜 여우비 아련 우리는 여우비 곰다시 이플 감또개 책방 안녕 우리는 늘품 늘품 로운 책방 도서관 여우비 소솜 바나나 옅구름 이플 옅구름 가온해 감또개 미쁘다.
                 </div>
                 <br></br>
-                <input type='radio' name="chaking" value="yes" id="y"/><span><label for="y">동의합니다</label></span>
-                <input type='radio' name="chaking" value="no" id="n"/><span><label for="n">동의하지 않습니다</label></span>
+                <input type='radio' name="chaking" value="yes" id="y" onClick={YesCheck}/><span><label for="y">동의합니다</label></span>
+                <input type='radio' name="chaking" value="no" id="n" onClick={NoCheck}/><span><label for="n">동의하지 않습니다</label></span>
             </div>
             <button className={styles.submit}>회원가입 진행하기</button>
         </main>

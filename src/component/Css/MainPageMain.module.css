@@ -9,7 +9,7 @@
     flex-direction: column;
   }
   .mainListBorder{
-    box-shadow: 0px 0px 10px 5px #D9D9D9;
+    box-shadow: 0 0 10px 5px #D9D9D9;
     border:1px solid #D9D9D9;
     border-radius: 15px;
     height: 100%;
@@ -56,8 +56,8 @@
     align-items: center;
   }
   .info, .event{
-    width:46%;
-    height: 50%;
+    width:600px;
+    height: 550px;
   }
   .infoBorder{
     width: 100%;
@@ -69,8 +69,8 @@
     border-radius: 15px;
   }
   .event > img{
-    width:620px;
-    height:523px;
+    width:600px;
+    height:550px;
   }
   .infoTop{
     top:80px;

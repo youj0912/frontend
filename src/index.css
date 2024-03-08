@@ -1,5 +1,5 @@
 body{
-  width:98vw;
+  width:100vw;
   height:100vh;
   font-family: 'Inter';
   text-align: center;
@@ -11,6 +11,7 @@ body{
   --background_color_bottom:#F0F0F0;
   --radius_bottom:0 50% 0 0;
   --background_color_register_request:#FF4D4D;
+
 }
 
 main{
