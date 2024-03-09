@@ -1,13 +1,12 @@
 import styles from '../Css/Register1Main.module.css';
 import Order1 from './order1'
 import { useState} from "react";
+import {Link} from "react-router-dom";
 export default function MainRegister1(){
     const [OK, setOK] = useState(false);
-    console.log(OK);
     const YesCheck = ()=>{
         if(!OK){
             setOK(!OK);
-
         }
     }
     const NoCheck = () =>{
@@ -46,7 +45,7 @@ export default function MainRegister1(){
                 <input type='radio' name="checking" value="yes" id="y" onClick={YesCheck}/><span><label for="y">동의합니다</label></span>
                 <input type='radio' name="checking" value="no" id="n" onClick={NoCheck}/><span><label for="n">동의하지 않습니다</label></span>
             </div>
-            <button {...(OK ? {disabled:false} : {disabled:true})} className={styles.submit } >회원가입 진행하기</button>
+            <button {...(OK ? {disabled:false} : {disabled:true})} className={styles.submit } ><Link to={"/register/form"}>회원가입 진행하기</Link></button>
         </main>
     )
 }
