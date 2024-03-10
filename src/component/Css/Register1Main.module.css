@@ -41,7 +41,7 @@ main > p:first-child{
     background-color: #e0e0e0;
     border-radius: 12px;
 }
-input{
+.disagree{
     margin-left: 10px;
 }
 span{
