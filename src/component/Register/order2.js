@@ -16,6 +16,9 @@ export default function Order1(){
                 <p>STEP 02</p>
                 <p>회원정보 입력</p>
             </div>
+            <div className={styles.blocks}>
+
+            </div>
             <img src={startYet} alt="이미지없음"/>
             <div className={styles.step3}>
                 <p>STEP 02</p>

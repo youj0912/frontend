@@ -13,13 +13,16 @@
     width:25%;
     height:70%;
 }
-.step1{
+.step1, .step2{
     border: 1px solid white;
     box-shadow: 0px 0px 10px 5px #D9D9D9;
     border-radius: 25px;
     position: absolute;
     bottom:-25px;
     left:45px;
+}
+.step2{
+    left:520px;
 }
 .step1 > p, .step2 > p, .step3 > p{
     margin: 5px 0 0 0;
