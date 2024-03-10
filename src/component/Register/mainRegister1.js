@@ -9,6 +9,7 @@ export default function MainRegister1(){
             setOK(!OK);
         }
     }
+
     const NoCheck = () =>{
         if(OK){
             setOK(!OK);
@@ -45,7 +46,7 @@ export default function MainRegister1(){
                 <input type='radio' name="checking" value="yes" id="y" onClick={YesCheck}/><span><label for="y">동의합니다</label></span>
                 <input className={styles.disagree} type='radio' name="checking" value="no" id="n" onClick={NoCheck}/><span><label for="n">동의하지 않습니다</label></span>
             </div>
-            <button {...(OK ? {disabled:false} : {disabled:true})} className={styles.submit } ><Link to={"/register/form"}>회원가입 진행하기</Link></button>
+            <button {...(OK ? {disabled:false} : {disabled:true})} className={styles.submit} ><Link to={"/register/form"}>회원가입 진행하기</Link></button>
         </main>
     )
 }
