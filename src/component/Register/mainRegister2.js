@@ -1,5 +1,6 @@
 import Order2 from "./order2";
 import Styles from "../Css/RegisterForm.module.css";
+import {Link} from "react-router-dom";
 export default function mainRegister(){
     return(
         <main className={Styles.main}>
@@ -22,7 +23,7 @@ export default function mainRegister(){
                     <input type={"password"} placeholder={'비밀번호 입력'}/>
                     <input type={"password"} placeholder={'비밀번호 재확인'}/>
                     <input className={Styles.address} type={"text"} placeholder={'주소'}/>
-                    <button type={"submit"}>회원가입</button>
+                    <Link to={`/register/finish`}><button className={Styles.registerButton} type={"submit"}>회원가입</button></Link>
                 </div>
             </form>
         </main>
