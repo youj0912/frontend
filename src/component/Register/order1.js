@@ -18,8 +18,8 @@ export default function Order1(){
             </div>
             <img src={startYet} alt="이미지없음"/>
             <div className={styles.step3}>
-                <p>STEP 02</p>
-                <p>회원정보 입력</p>
+                <p>STEP 03</p>
+                <p>가입완료</p>
             </div>
         </div>
     )

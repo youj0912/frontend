@@ -15,7 +15,7 @@
     border-radius: 5%;
 }
 
-.content > *, .select > *{
+.content > *, .select > *, .registerButton{
     height: 50px;
     font-size: 20px;
 }
@@ -63,8 +63,12 @@
     background-color: #FF4D4D;
     color:white;
 }
-.select input[type=text]{ width:40%; }
-.phoneNumber, .day{ width:37%; }
+.select input[type=text]{
+    width:40%;
+}
+.phoneNumber, .day{
+    width:37%;
+}
 
 .emails, .emailCheck{
     width: 80%;
@@ -92,14 +96,13 @@
 .content > *:first-child {
     margin-top: 50px;
 }
-.content > *:last-child{
-    margin-bottom: 50px;
-}
-.content > button:last-child{
+
+.registerButton{
     width:80%;
     height:60px;
     background-color:var(--background_color_register_request);
     color:white;
     border: 1px solid #FF4D4D;
     font-size: 30px;
+    margin-bottom: 50px;
 }
