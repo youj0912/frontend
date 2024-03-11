@@ -4,6 +4,7 @@ import {BrowserRouter,Route,Routes} from 'react-router-dom';
 import {Component} from "react";
 import {getResizeEventListener} from "./module/SizeRefactor";
 import Register2 from './View/register2';
+import Register3 from './View/register3';
 class App extends Component{
     render(){
         return (
@@ -14,6 +15,7 @@ class App extends Component{
                         <Route path="/login" element=""/>
                         <Route path="/register" element={<Register1/>}/>
                         <Route path="/register/form" element={<Register2/>}/>
+                        <Route path="/register/finish" element={<Register3/>}/>
                     </Routes>
                 </div>
             </BrowserRouter>
