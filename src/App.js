@@ -1,10 +1,10 @@
 import All from './View/All'
-import Register1 from './View/register1';
+import Register1 from './View/signUp1';
 import {BrowserRouter,Route,Routes} from 'react-router-dom';
 import {Component} from "react";
 import {getResizeEventListener} from "./module/SizeRefactor";
-import Register2 from './View/register2';
-import Register3 from './View/register3';
+import Register2 from './View/signUp2';
+import Register3 from './View/signUp3';
 class App extends Component{
     render(){
         return (
@@ -13,9 +13,9 @@ class App extends Component{
                     <Routes>
                         <Route path="/main"  element={<All/>}/>
                         <Route path="/login" element=""/>
-                        <Route path="/register" element={<Register1/>}/>
-                        <Route path="/register/form" element={<Register2/>}/>
-                        <Route path="/register/finish" element={<Register3/>}/>
+                        <Route path="/signUp" element={<Register1/>}/>
+                        <Route path="/signUp/form" element={<Register2/>}/>
+                        <Route path="/signUp/finish" element={<Register3/>}/>
                     </Routes>
                 </div>
             </BrowserRouter>

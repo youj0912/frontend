@@ -8,7 +8,7 @@ export default function Headers(){
                 <div className={styles.logo}><img src={Img} alt="notFound"/><Link to="/main"><p className={styles.logoName}>GIVE</p></Link></div>
                 <div>
                     <Link to="/login">로그인</Link>
-                    <Link to="/register">회원가입</Link>
+                    <Link to="/signUp">회원가입</Link>
                 </div>
             </div>
         </header>

@@ -8,28 +8,37 @@ import Rec1 from "../GIVE_사진/Rectangle 374.png";
 import Count1 from "../GIVE_사진/circle/기부횟수1.png";
 import Count2 from "../GIVE_사진/circle/기부횟수2.png";
 import styles from './Css/MainPageMain.module.css';
+import {Link} from "react-router-dom";
 export default function Main(){
     return(
         <main className={styles.main}>
             <div className={styles.mainList}>
                 <p style={{fontWeight:"bold", fontSize:"25px"}}>헌혈</p>
                 <div className={styles.mainListBorder}>
-                    <div>
-                        <img src={Register} alt="사진 오류"/>
-                        <p>등록</p>
-                    </div>
-                    <div>
-                        <img src={Search} alt="사진 오류"/>
-                        <p>조회</p>
-                    </div>
-                    <div>
-                        <img src={Request} alt="사진 오류"/>
-                        <p>요청</p>
-                    </div>
-                    <div>
-                        <img src={Document} alt="사진 오류"/>
-                        <p>전자문진</p>
-                    </div>
+                     <Link to>
+                        <div>
+                            <img src={Register} alt="사진 오류"/>
+                            <p>등록</p>
+                        </div>
+                    </Link>
+                    <Link to>
+                        <div>
+                            <img src={Search} alt="사진 오류"/>
+                            <p>조회</p>
+                        </div>
+                    </Link>
+                    <Link to>
+                        <div>
+                            <img src={Request} alt="사진 오류"/>
+                            <p>요청</p>
+                        </div>
+                    </Link>
+                    <Link to>
+                        <div>
+                            <img src={Document} alt="사진 오류"/>
+                            <p>전자문진</p>
+                        </div>
+                    </Link>
                 </div>
             </div>
             <div className={styles.donation}>

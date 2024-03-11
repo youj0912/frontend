@@ -1,11 +1,11 @@
 import Footer from '../component/MainPageFooter'
 import Header from '../component/MainPageHeader'
-import MainRegister1 from '../component/Register/mainRegister1'
+import MainSignUp1 from '../component/Register/mainSignUp1'
 export default function Register1(){
     return(
         <div>
             <Header/>
-            <MainRegister1/>
+            <MainSignUp1/>
             <Footer/>
         </div>
     )

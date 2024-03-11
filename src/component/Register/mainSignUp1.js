@@ -1,8 +1,8 @@
-import styles from '../Css/Register1Main.module.css';
+import styles from '../Css/signUp1Main.module.css';
 import Order1 from './order1'
 import { useState} from "react";
 import {Link} from "react-router-dom";
-export default function MainRegister1(){
+export default function MainSignUp1(){
     const [OK, setOK] = useState(false);
     const YesCheck = ()=>{
         if(!OK){
@@ -46,7 +46,7 @@ export default function MainRegister1(){
                 <input type='radio' name="checking" value="yes" id="y" onClick={YesCheck}/><span><label for="y">동의합니다</label></span>
                 <input className={styles.disagree} type='radio' name="checking" value="no" id="n" onClick={NoCheck}/><span><label for="n">동의하지 않습니다</label></span>
             </div>
-            <Link to={"/register/form"}><button {...(OK ? {disabled:false} : {disabled:true})} className={styles.submit} >회원가입 진행하기</button></Link>
+            <Link to={"/signUp/form"}><button {...(OK ? {disabled:false} : {disabled:true})} className={styles.submit} >회원가입 진행하기</button></Link>
         </main>
     )
 }
