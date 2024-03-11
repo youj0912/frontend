@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import Img from '../GIVE_사진/giveLOGO 1.png' 
-import styles from "./Css/MainPageHeader.module.css";
+import Img from '../../GIVE_사진/giveLOGO 1.png'
+import styles from "../Css/mainPageCss/MainPageHeader.module.css";
 export default function Headers(){
     return(
         <header className={styles.allSize}>

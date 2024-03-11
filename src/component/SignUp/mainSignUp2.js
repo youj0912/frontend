@@ -1,5 +1,5 @@
 import Order2 from "./order2";
-import Styles from "../Css/signUp2Form.module.css";
+import Styles from "../Css/SignUpCss/signUp2Form.module.css";
 import {Link} from "react-router-dom";
 export default function mainRegister(){
     return(

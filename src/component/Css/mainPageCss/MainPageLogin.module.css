@@ -1,0 +1,35 @@
+.allSize{
+    width:90%;
+    height:10%;
+    display:inline-block;
+}
+.allSizeItem{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.allSizeItem > img{
+    width:70px;
+    height:70px;
+    border-radius: 50%;
+}
+.logo{
+    display: flex;
+    position:relative;
+}
+.logoName{
+    position:absolute;
+    left:67px;
+    color:var(--color_give);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.allSizeItem > div > a{
+    margin-right:20px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}

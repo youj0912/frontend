@@ -1,13 +1,13 @@
 
-import Register from "../GIVE_사진/Register.PNG"
-import Search from "../GIVE_사진/search.PNG"
-import Request from "../GIVE_사진/help-call 1.png"
-import Document from "../GIVE_사진/filling-form 1.png"
-import Donation from "../GIVE_사진/donation (1) 2.png"
-import Rec1 from "../GIVE_사진/Rectangle 374.png";
-import Count1 from "../GIVE_사진/circle/기부횟수1.png";
-import Count2 from "../GIVE_사진/circle/기부횟수2.png";
-import styles from './Css/MainPageMain.module.css';
+import Register from "../../GIVE_사진/Register.PNG"
+import Search from "../../GIVE_사진/search.PNG"
+import Request from "../../GIVE_사진/help-call 1.png"
+import Document from "../../GIVE_사진/filling-form 1.png"
+import Donation from "../../GIVE_사진/donation (1) 2.png"
+import Rec1 from "../../GIVE_사진/Rectangle 374.png";
+import Count1 from "../../GIVE_사진/circle/기부횟수1.png";
+import Count2 from "../../GIVE_사진/circle/기부횟수2.png";
+import styles from '../Css/mainPageCss/MainPageMain.module.css';
 import {Link} from "react-router-dom";
 export default function Main(){
     return(

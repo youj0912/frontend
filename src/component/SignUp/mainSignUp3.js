@@ -1,5 +1,5 @@
 import Order3 from './order3'
-import styles from '../Css/signUp3Finish.module.css'
+import styles from '../Css/SignUpCss/signUp3Finish.module.css'
 import {Link} from "react-router-dom";
 
 export default function mainRegister(){

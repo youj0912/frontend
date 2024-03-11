@@ -1,4 +1,4 @@
-import All from './View/All'
+import MainPage from './View/mainPageLogin'
 import Register1 from './View/signUp1';
 import {BrowserRouter,Route,Routes} from 'react-router-dom';
 import {Component} from "react";
@@ -11,11 +11,12 @@ class App extends Component{
             <BrowserRouter>
                 <div id="App">
                     <Routes>
-                        <Route path="/main"  element={<All/>}/>
+                        <Route path="/main"  element={<MainPage/>}/>
                         <Route path="/login" element=""/>
                         <Route path="/signUp" element={<Register1/>}/>
                         <Route path="/signUp/form" element={<Register2/>}/>
                         <Route path="/signUp/finish" element={<Register3/>}/>
+
                     </Routes>
                 </div>
             </BrowserRouter>

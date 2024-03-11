@@ -1,4 +1,4 @@
-import styles from '../Css/order3.module.css';
+import styles from '../Css/SignUpCss/order3.module.css';
 import start from '../../GIVE_사진/start.png';
 export default function Order1(){
     return(

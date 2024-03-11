@@ -1,4 +1,4 @@
-import styles from '../Css/signUp1Main.module.css';
+import styles from '../Css/SignUpCss/signUp1Main.module.css';
 import Order1 from './order1'
 import { useState} from "react";
 import {Link} from "react-router-dom";
