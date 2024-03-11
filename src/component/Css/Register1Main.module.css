@@ -48,7 +48,7 @@ span{
     font-weight: normal;
 }
 .submit{
-    width:30%;
+    width:500px;
     height:50px;
     margin-top:90px;
     background-color: var(--background_color_register_request);
