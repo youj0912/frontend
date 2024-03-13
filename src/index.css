@@ -4,6 +4,7 @@ body{
   font-family: 'Inter';
   text-align: center;
   margin:0;
+  background-color: #FAFAFA;
 }
 :root{
   --color_give:#BF1B2C;
