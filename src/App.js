@@ -1,10 +1,11 @@
-import MainPage from './View/mainPageLogin'
-import Register1 from './View/signUp1';
+import MainPage from './View/mainPage'
+import SignUp1 from './View/signUp1';
 import {BrowserRouter,Route,Routes} from 'react-router-dom';
 import {Component} from "react";
 import {getResizeEventListener} from "./module/SizeRefactor";
-import Register2 from './View/signUp2';
-import Register3 from './View/signUp3';
+import SignUp2 from './View/signUp2';
+import SignUp3 from './View/signUp3';
+import RegisterMain from './View/register'
 class App extends Component{
     render(){
         return (
@@ -13,10 +14,10 @@ class App extends Component{
                     <Routes>
                         <Route path="/main"  element={<MainPage/>}/>
                         <Route path="/login" element=""/>
-                        <Route path="/signUp" element={<Register1/>}/>
-                        <Route path="/signUp/form" element={<Register2/>}/>
-                        <Route path="/signUp/finish" element={<Register3/>}/>
-
+                        <Route path="/signUp" element={<SignUp1/>}/>
+                        <Route path="/signUp/form" element={<SignUp2/>}/>
+                        <Route path="/signUp/finish" element={<SignUp3/>}/>
+                        <Route path="/register" element={<RegisterMain/>}/>
                     </Routes>
                 </div>
             </BrowserRouter>
