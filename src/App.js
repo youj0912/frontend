@@ -10,7 +10,7 @@ class App extends Component{
     render(){
         return (
             <BrowserRouter>
-                <div id="App">
+                <div id="App" style={{position:"relative"}}>
                     <Routes>
                         <Route path="/main"  element={<MainPage/>}/>
                         <Route path="/login" element=""/>
@@ -26,7 +26,6 @@ class App extends Component{
     componentDidMount() {
         const FixRatio = getResizeEventListener(1980,1060);
         window.onresize= FixRatio;
-        FixRatio();
     }
 }
 
