@@ -15,7 +15,7 @@ export default function Main(){
             <div className={styles.mainList}>
                 <p style={{fontWeight:"bold", fontSize:"25px"}}>헌혈</p>
                 <div className={styles.mainListBorder}>
-                     <Link to>
+                     <Link to={'/register'}>
                         <div>
                             <img src={Register} alt="사진 오류"/>
                             <p>등록</p>

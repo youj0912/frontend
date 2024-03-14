@@ -1,0 +1,40 @@
+.main{
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.block{
+    width: 10px;
+    height: 100px;
+}
+.box{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width:600px;
+    height: 350px;
+}
+
+.box > p{
+    font-size: 13px;
+}
+
+.inputFileButton{
+    background-color: #FFD200;
+    border:1px solid #FFD200;
+    border-radius: 25px;
+    width:250px;
+    height:55px;
+    line-height: 55px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.block{
+    width: 10px;
+    height: 60px;
+}
+.underText{
+    margin-top:70px;
+}
