@@ -18,7 +18,7 @@ export default function mainRegister(){
                     <input className={Styles.phoneNumber} type={`tel`} placeholder={'전화번호'}/>
                     <input className={Styles.emails} type={'email'} placeholder={'이메일'}/>
                     <button className={Styles.emailCheck} type={`submit`}>중복 검사</button>
-                    <input type={'text'}/>
+                    <input type={'text'} placeholder={'인증번호'}/>
                     <button className={Styles.numberCheck} type={'submit'}>인증</button>
                     <input type={"password"} placeholder={'비밀번호 입력'}/>
                     <input type={"password"} placeholder={'비밀번호 재확인'}/>
