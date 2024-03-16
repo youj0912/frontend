@@ -30,7 +30,7 @@
 .content > input:nth-child(2){
     margin-right: 25px;
 }
-.content > input:nth-child(6){
+.content > input:nth-child(7){
     margin-right: 30px;
     width: 50%;
 }
@@ -43,9 +43,9 @@
     font-size:25px;
 }
 
-.select input[type=radio]{ display:none; }
+input[type=radio]{ display:none; }
 
-.select input[type=radio]+label{
+input[type=radio]+label{
     display:inline-block;
     cursor:pointer;
     height:48px;
@@ -54,12 +54,12 @@
     background-color:white;
     line-height: 48px;
 }
-.select input[type=radio]+label{
+input[type=radio]+label{
     background-color:white;
     border-radius: 10px;
     color:black
 }
-.select input[type=radio]:checked+label{
+input[type=radio]:checked+label{
     background-color: #FF4D4D;
     color:white;
 }
@@ -105,4 +105,13 @@
     border: 1px solid #FF4D4D;
     font-size: 30px;
     margin-bottom: 50px;
+}
+
+.bloodType{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.bloodType > p{
+    margin-right: 100px;
 }
