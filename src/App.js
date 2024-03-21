@@ -25,6 +25,7 @@ class App extends Component{
     }
     componentDidMount() {
         const FixRatio = getResizeEventListener(1980,1060);
+        FixRatio();
         window.onresize= FixRatio;
     }
 }

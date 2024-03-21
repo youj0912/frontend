@@ -1,12 +1,16 @@
 import Headers from "../component/mainPage/MainPageHeader";
 import Footer from "../component/mainPage/MainPageFooter";
-import MainRegister2 from "../component/SignUp/mainSignUp2"
-export default function signUp2(){
-    return(
-        <div>
-            <Headers/>
-            <MainRegister2/>
-            <Footer/>
-        </div>
-    )
+import {MainSignUp2} from "../component/SignUp/MainSignUp2";
+import {Component} from "react";
+class signUp2 extends Component{
+    render(){
+        return (
+            <div>
+                <Headers/>
+                <MainSignUp2/>
+                <Footer/>
+            </div>
+        )
+    }
 }
+export default signUp2;

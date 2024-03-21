@@ -43,7 +43,7 @@
     font-size:25px;
 }
 
-input[type=radio]{ display:none; }
+.select > input[type=radio], .bloodType > input[type=radio]{ display:none; }
 
 input[type=radio]+label{
     display:inline-block;
@@ -114,4 +114,9 @@ input[type=radio]:checked+label{
 }
 .bloodType > p{
     margin-right: 100px;
+}
+
+.registerButton:disabled{
+    background-color:var(--background_color_register_request);
+    border: 1px solid #FF4D4D;
 }
