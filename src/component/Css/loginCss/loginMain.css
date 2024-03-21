@@ -1,5 +1,4 @@
 .login-page {
-    position: relative;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -8,7 +7,6 @@
   }
   
   .login-container {
-    position: relative;
     width: 100%;
     max-width: 600px;
     margin: auto;
@@ -22,17 +20,7 @@
     height: 50px;
     background-size: contain;
   }
-  
-  .left-half-circle {
-    margin-right: auto; /* 왼쪽 정렬 */
-    background: url('Ellipse 14-1.png') no-repeat center center;
-  }
-  
-  .right-half-circle {
-    margin-left: auto; 
-    background: url('Ellipse 13-1.png') no-repeat center center;
-  }
-  
+
   .login-form {
     padding: 20px;
     background: #E5E5E5;

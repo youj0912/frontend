@@ -1,10 +1,8 @@
-//import styles from "../Css/mainPageCss/MainPageLogin.module.css";
-import styles from "../Css/mainPageCss/MainPageHeader.module.css";
-import styles from "../Css/mainPageCss/MainPageFooter.module.css";
-import styles from "../Css/loginCss/loginMain.css";
+import "../Css/loginCss/loginMain.css";
 import { Link } from 'react-router-dom';
-export default function login() {
-
+import {useState} from "react";
+import axios from "axios";
+export default function MainLogin() {
 
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -29,7 +27,6 @@ export default function login() {
 
     return (
         <div className="login-page">
-            <Header />
             <div className="login-container">
                 <div className="half-circle left-half-circle"></div>
                 <form className="login-form" onSubmit={handleLogin}>
@@ -46,7 +43,6 @@ export default function login() {
                 </form>
                 <div className="half-circle right-half-circle"></div>
             </div>
-            <Footer />
         </div>
     );
 }
