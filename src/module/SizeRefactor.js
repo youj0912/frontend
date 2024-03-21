@@ -8,6 +8,7 @@ export const getResizeEventListener = (standardWidth, standardHeight) =>{
         app.style.height = `${standardHeight}px`;
         let width = root.clientWidth;
         let height = width * (standardHeight / standardWidth);
+
         if(height < 950){
             app.style.zoom =0.9;
         }else{
