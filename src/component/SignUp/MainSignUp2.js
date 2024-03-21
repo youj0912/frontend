@@ -106,9 +106,6 @@ export const MainSignUp2 =() =>{
                 password2 : rePassword,
             }).then((response) =>{
                 navigate(`/signUp/finish`);
-                console.log(response);
-                console.log(password);
-                console.log(rePassword);
             }).catch((error)=>{
                 console.log(error);
             })

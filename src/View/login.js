@@ -1,11 +1,11 @@
 import Footer from '../component/mainPage/MainPageFooter'
 import Header from '../component/mainPage/MainPageHeader'
-import MainRegister2 from "../component/login/mainLogin"
-export default function login(){
+import MainLogin from "../component/login/mainLogin"
+export default function Login(){
     return(
         <div>
             <Header/>
-            <mainLogin/>
+            <MainLogin/>
             <Footer/>
         </div>
     )
