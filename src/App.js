@@ -5,6 +5,7 @@ import {Component} from "react";
 import {getResizeEventListener} from "./module/SizeRefactor";
 import SignUp2 from './View/signUp2';
 import SignUp3 from './View/signUp3';
+import login from './View/login'
 import RegisterMain from './View/register'
 class App extends Component{
     render(){
@@ -13,7 +14,7 @@ class App extends Component{
                 <div id="App" style={{position:"relative"}}>
                     <Routes>
                         <Route path="/main"  element={<MainPage/>}/>
-                        <Route path="/login" element=""/>
+                        <Route path="/login" element={<login/>}/>
                         <Route path="/signUp" element={<SignUp1/>}/>
                         <Route path="/signUp/form" element={<SignUp2/>}/>
                         <Route path="/signUp/finish" element={<SignUp3/>}/>
